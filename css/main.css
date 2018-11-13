@@ -100,6 +100,11 @@ textarea {
 /* These are the exported CSS styles from the landing page Photoshop file. They need to be 
 changed as far as class names and checked agains the HTML*/
 
+@font-face {
+font-family: Moon Get!;
+src: url('moon_get-Heavy.otf') format('opentype');
+}
+
 .LANDING_PAGE {
   position: absolute;
   left: 0px;
