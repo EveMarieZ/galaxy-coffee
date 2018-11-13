@@ -97,6 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* These are the exported CSS styles from the landing page Photoshop file. They need to be 
+changed as far as class names and checked agains the HTML*/
+
 .LANDING_PAGE {
   position: absolute;
   left: 0px;
