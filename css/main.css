@@ -187,6 +187,16 @@ a:hover {
   display: flex;
 }
 
+.logo-container {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .flex-items {
   display: flex;
   display: -webkit-box;
@@ -206,15 +216,73 @@ a:hover {
 h2 {
   font-size: 2.6em;
   color: #fff;
+  line-height: 1em;
 }
 
 h3 {
   font-size: 1.6em;
   color: #fff;
+  line-height: 1em;
 }
 
+/***** SIGNUP *****/
 
+#signup h3, h4 {
+  color: #b719ff;
+}
 
+#signup-button {
+
+}
+
+/***** MENU *****/
+
+#coffee-menu {
+  float: left;
+} 
+
+#pastries-menu {
+  float: left;
+}
+
+#menu img {
+  height: 140px;
+  width: auto;
+}
+
+#menu h4 {
+  color: #fff;
+}
+
+#menu p {
+  width: 80%;
+  color: #fff;
+}
+
+/***** TESTIMONIALS *****/
+
+#testimonials h3 {
+  color: #b719ff;
+}
+
+#testimonials img {
+  height: 120px;
+  width: auto;
+}
+
+#testimonial-woman {
+  float: left;
+}
+
+/***** CONTACT *****/
+
+#contact span {
+  color: #b719ff;
+}
+
+#contact h4 {
+  color: #fff;
+}
 
 /* ==========================================================================
    Helper classes

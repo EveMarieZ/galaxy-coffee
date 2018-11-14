@@ -27,9 +27,11 @@
   <!-- Add your site or application content here -->
 <header>
   <div class="full-width" id="heading">
-    <figure id="galaxy-logo">
-      <img src="img/new-cookie-logo.png" alt="Bitten cookie planet with rings" />
-    </figure>
+    <div class="flex-container" id="logo-container">
+      <figure id="galaxy-logo">
+        <img src="img/new-cookie-logo.png" alt="Bitten cookie planet with rings" />
+      </figure>
+    </div>
     <h1>Galaxy Coffee</h1>
     <h2>Come to our Grand Opening!</h2>
     <h3>Celebrate with us and get a FREE house blend coffee!</h3>
@@ -54,25 +56,37 @@
 </header>
 
 <section id="signup">
-  <div class="full-width" id="signup">
+  <div class="full-width" id="signup-heading">
     <h3>Do you like free stuff? Of course you do.</h3>
     <h4>Sign up for our mailing list and get a FREE scone!</h4>
+  </div>
+    <div class="flex-container" id="email-form">
+      <form action="mailto:hello@galaxycoffee.com" method="post" enctype="text/plain">
+      Name:
+      <input type="text" name="name">
+      Last Name:
+      <input type="text" name="last-name">
+      E-mail:
+      <input type="text" name="e-mail" size="50"><br><br>
+      <input type="submit" value="Gimme that scone!" id="signup-button">
+      </form>
+    </div>
   </div>
 </section>
 
 
 <section id="menu">
-  <div class="full-width" id="menu">
+  <div class="full-width">
     <h3>Cosmic coffee and stellar pastries.</h3>
     <h4>We're serious about what goes in your cup and on your plate.</h4>
-      <div class="half-width">
+      <div class="half-width" id="coffee-menu">
         <h3>Coffee</h3>
         <figure>  
           <img src="img/cup-icon.png" alt="Coffee cup icon with plantary rings" />
           </figure>
         <p>We offer a house blend of Fair Trade coffee and espresso, artisanal teas from The Tea Dragon. Our coffee is ground and roasted in house (so it smells amazing in here).</p>
       </div>
-      <div class="half-width">
+      <div class="half-width" id="pastries-menu">
         <h3>Pastries</h3>
         <figure>  
           <img src="img/icon-croissant-yellow.png" alt="Croissant icon" />
@@ -84,15 +98,15 @@
 
 <section id="testimonials">
   <div class="full-width">
-    <h3>Our coffee is out of this world</h3>
+    <h3>Our coffee is out of this world.</h3>
     <h4>We're kind of a big deal. See what others have to say about our coffee.</h4>
-      <div class="half-width">
+      <div class="half-width" id="testimonial-woman">
         <figure>
           <img src="img/woman-portrait.png" alt="Testimonial portrait of young woman" />
         </figure>
         <p>“The coffee is delicious, lovingly made, and unpretentious. The apple zucchini scone was unexpected but amazing. I have no regrets for having a second one!”</p>
       </div>
-      <div class="half-width">
+      <div class="half-width" id="testimonial-man">
         <figure>
           <img src="img/man-portrait.png" alt="Testimonial portrait of young man" />
         </figure>
@@ -103,7 +117,7 @@
 
 <section id="contact">
   <div class="full-width">
-    <h2>Coming soon to your galaxy</h2>
+    <h2>Coming <span>soon</span> to your galaxy</h2>
     <h4>Come say hi in person or on the web!</h4>
     <div class="half-width">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4215.088199256122!2d-84.38653757567853!3d33.77297638962372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C+GA!5e0!3m2!1sen!2sus!4v1542149366387" width="600" height="450" allowfullscreen></iframe>
