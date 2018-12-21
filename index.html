@@ -25,93 +25,81 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-<header>
-  <div class="full-width" id="heading">
-    <div class="flex-container" id="logo-container">
-      <figure>
-        <img src="img/new-cookie-logo.png" alt="Bitten cookie planet with rings" />
-      </figure>
-    </div>
+<header class="flex-container">
+  <div class="flex-items" id="heading">
+    <figure>
+      <img src="img/new-cookie-logo.png" alt="Purple bitten cookie planet with yellow rings" />
+    </figure>
     <h1>Galaxy Coffee</h1>
     <h2>Come to our Grand Opening!</h2>
     <h3>Celebrate with us and get a FREE house blend coffee!</h3>
   </div>
-  <div class="flex-container" id="header-images">
-    <div class="flex-items" id="header-img-1">
-      <figure>  
-        <img src="img/cafe-friends.png" alt="students drinking coffee and using laptop outside cafe" />
-      </figure>
-    </div>
-    <div class="flex-items" id="header-img-2">
+  <div class="flex-items" id="header-images">
+    <figure>  
+      <img src="img/cafe-friends.png" alt="students drinking coffee and using laptop outside cafe" />
+    </figure>
     <figure>
         <img src="img/oreo-donuts.png" alt="Oreo donut pyramid" />
       </figure>
-    </div>
-    <div class="flex-items" id="header-img-3">
-      <figure>
-        <img src="img/group-study.png" alt="study group meeting hands in star shape" />
-      </figure>
-  </div>
+    <figure>
+      <img src="img/group-study.png" alt="study group meeting hands in star shape" />
+    </figure>
   </div>
 </header>
 
-<section id="signup">
-  <div class="full-width" id="signup-heading">
+<section class="flex-container" id="signup">
+  <div class="flex-items" id="signup-heading">
     <h3>Do you like free stuff? Of course you do.</h3>
     <h4>Sign up for our mailing list and get a FREE scone!</h4>
+  </div>  
+  <div class="flex-items" id="email-form">
+    <form action="mailto:hello@galaxycoffee.com" method="post" enctype="text/plain">
+    Name:
+    <input type="text" name="name">
+    Last Name:
+    <input type="text" name="last-name">
+    E-mail:
+    <input type="text" name="e-mail" size="50"><br><br>
+    <input type="submit" value="Gimme that scone!" id="signup-button">
+    </form>
   </div>
-    <div class="flex-container" id="email-form">
-      <form action="mailto:hello@galaxycoffee.com" method="post" enctype="text/plain">
-      Name:
-      <input type="text" name="name">
-      Last Name:
-      <input type="text" name="last-name"><br />
-      E-mail:
-      <input type="text" name="e-mail" size="50"><br><br>
-      <input type="submit" value="Gimme that scone!" id="signup-button">
-      </form>
+</section>
+
+
+<section class="flex-container" id="menu">
+  <h3>Cosmic coffee and stellar pastries.</h3>
+  <h4>We're serious about what goes in your cup and on your plate.</h4>
+    <div class="flex-items" id="coffee-menu">
+      <h3>Coffee</h3>
+      <figure>  
+        <img src="img/cup-icon.png" alt="Coffee cup icon with plantary rings" />
+        </figure>
+      <p>We offer a house blend of Fair Trade coffee and espresso and artisanal teas from The Tea Dragon. Our coffee is ground and roasted in house (so it smells amazing in here).</p>
+    </div>
+    <div class="flex-items" id="pastries-menu">
+      <h3>Pastries</h3>
+      <figure>  
+        <img src="img/icon-croissant-yellow.png" alt="Croissant icon" />
+      </figure>
+      <p>Our homemade scones are seriously otherworldly, as well as our extensive selection of croissants, cakes, muffins, and cookies.  We also offer gluten free, vegan,  and nut free food options!</p>
     </div>
 </section>
 
-
-<section id="menu">
-  <div class="full-width">
-    <h3>Cosmic coffee and stellar pastries.</h3>
-    <h4>We're serious about what goes in your cup and on your plate.</h4>
-      <div class="half-width" id="coffee-menu">
-        <h3>Coffee</h3>
-        <figure>  
-          <img src="img/cup-icon.png" alt="Coffee cup icon with plantary rings" />
-          </figure>
-        <p>We offer a house blend of Fair Trade coffee and espresso and artisanal teas from The Tea Dragon. Our coffee is ground and roasted in house (so it smells amazing in here).</p>
-      </div>
-      <div class="half-width" id="pastries-menu">
-        <h3>Pastries</h3>
-        <figure>  
-          <img src="img/icon-croissant-yellow.png" alt="Croissant icon" />
-        </figure>
-        <p>Our homemade scones are seriously otherworldly, as well as our extensive selection of croissants, cakes, muffins, and cookies.  We also offer gluten free, vegan,  and nut free food options!</p>
-      </div>
-  </div>
-</section>
-
-<section id="testimonials">
-  <div class="full-width">
-    <h3>Our coffee is out of this world.</h3>
-    <h4>We're kind of a big deal. See what others have to say about our coffee.</h4>
-      <div class="half-width" id="testimonial-woman">
-        <figure>
-          <img src="img/woman-portrait.png" alt="Testimonial portrait of young woman" />
-        </figure>
-        <p>“The coffee is delicious, lovingly made, and unpretentious. The apple zucchini scone was unexpected but amazing. I have no regrets for having a second one!”</p>
-      </div>
-      <div class="half-width" id="testimonial-man">
-        <figure>
-          <img src="img/man-portrait.png" alt="Testimonial portrait of young man" />
-        </figure>
-        <p>“The Sumatran roast is amazing, and the Early Grey tea is delicious. Do not miss the cardamom scone. It will change your life.</p>
-      </div>
-  </div>
+<section class="flex-container" id="testimonials">
+  <h3>Our coffee is out of this world.</h3>
+  <h4>We're kind of a big deal. See what others have to say about our coffee.</h4>
+    <div class="flex-items" id="testimonial-woman">
+      <figure>
+        <img src="img/woman-portrait.png" alt="Testimonial portrait of young woman" />
+      </figure>
+      <p>“The coffee is delicious, lovingly made, and unpretentious. The apple zucchini scone was unexpected but amazing. I have no regrets for having a second one!”</p>
+    </div>
+    <div class="flex-items" id="testimonial-man">
+      <figure>
+        <img src="img/man-portrait.png" alt="Testimonial portrait of young man" />
+      </figure>
+      <p>“The Sumatran roast is amazing, and the Early Grey tea is delicious. Do not miss the cardamom scone. It will change your life.</p>
+    </div>
 </section>
 
 <section id="contact">
