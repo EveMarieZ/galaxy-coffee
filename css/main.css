@@ -127,8 +127,9 @@ img {
 h1 {
   font-family: 'Moon Get!', sans-serif;
   color: #fff;
-  font-size: 3.75em;
+  font-size: 3.33em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2, h3, h4 {
@@ -145,18 +146,6 @@ a:hover {
 header {
   height: 578px;
   background: #6d17e8;
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-items {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
 }
 
 #signup {
@@ -191,6 +180,27 @@ h3 {
   line-height: 1em;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-items {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-pics {
+  display: flex;
+}
+
 /***** SIGNUP *****/
 
 #signup {
@@ -205,6 +215,7 @@ h3 {
   background: #b719ff;
   padding: 25px 170px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 /***** MENU *****/
@@ -218,6 +229,22 @@ h3 {
   color: #fff;
 }
 
+#menu h3 {
+  padding-top: 
+}
+
+.flex-vertical {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.flex-down {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /***** TESTIMONIALS *****/
 
@@ -234,15 +261,13 @@ h3 {
   width: auto;
 }
 
-.flex-horizontal{
+.flex-horizontal {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .flex-sides {
   display: flex;
-
   width: 50%;
 }
 
@@ -262,6 +287,12 @@ h3 {
 #contact h4 {
   color: #fff;
 }
+
+#contact img {
+  height: 50px;
+  width: auto;
+}
+
 
 /* ==========================================================================
    Helper classes
