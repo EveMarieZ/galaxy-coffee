@@ -107,6 +107,13 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: 'Karla', sans-serif;
+  height: 100%
+  width: 100%;
+  margin: 0;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -115,10 +122,6 @@ img {
 @font-face {
   font-family: Moon Get!;
   src: url('moon_get-Heavy.otf') format('opentype');
-}
-
-body {
-  font-family: 'Karla', sans-serif;
 }
 
 h1 {
@@ -139,23 +142,21 @@ a:hover {
 
 /***** GRID *****/
 
-.full-width {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.half-width {
-  width: 50%;
-  margin: 0 auto;
-}
-
-#heading {
+header {
   height: 578px;
   background: #6d17e8;
 }
 
-#header-images {
- 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-items {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
 }
 
 #signup {
@@ -178,26 +179,6 @@ a:hover {
 
 /***** HEADER *****/
 
-
-.flex-container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.flex-items {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  justify-content: center;
-  height: 100%;
-  width: auto;
-}
-
 h2 {
   font-size: 2.6em;
   color: #fff;
@@ -208,6 +189,9 @@ h3 {
   font-size: 1.6em;
   color: #fff;
   line-height: 1em;
+}
+
+.flex-items #header-images {
 }
 
 /***** SIGNUP *****/
@@ -228,8 +212,6 @@ h3 {
 
 
 /***** MENU *****/
-
-
 
 #menu img {
   height: 140px;
