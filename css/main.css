@@ -192,13 +192,11 @@ h3 {
   justify-content: center;
 }
 
-.flex-images {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex-pics {
-  display: flex;
+.header-images {
+  width: 100%
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 /***** SIGNUP *****/
@@ -221,7 +219,7 @@ h3 {
 /***** MENU *****/
 
 #menu img {
-  height: 140px;
+  height: 100px;
   width: auto;
 }
 
@@ -229,11 +227,12 @@ h3 {
   color: #fff;
 }
 
-#menu h3 {
-  padding-top: 
+#menu-title {
+  padding-top: 60px;
 }
 
 .flex-vertical {
+  padding-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -244,12 +243,17 @@ h3 {
   width: 40%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /***** TESTIMONIALS *****/
 
 #testimonials h3, h4 {
   color: #b719ff;
+}
+
+#testimonials h3 {
+  padding-top: 
 }
 
 #testimonials p {
