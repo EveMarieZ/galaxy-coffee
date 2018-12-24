@@ -218,6 +218,7 @@ h3 {
   color: #fff;
 }
 
+
 /***** TESTIMONIALS *****/
 
 #testimonials h3, h4 {
@@ -233,8 +234,16 @@ h3 {
   width: auto;
 }
 
-#testimonial-woman {
-  float: left;
+.flex-horizontal{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-sides {
+  display: flex;
+
+  width: 50%;
 }
 
 /***** CONTACT *****/
