@@ -228,7 +228,7 @@ h3 {
 }
 
 #menu-title {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .flex-vertical {
@@ -253,7 +253,7 @@ h3 {
 }
 
 #testimonials h3 {
-  padding-top: 
+  padding-top: 100px;
 }
 
 #testimonials p {
@@ -268,6 +268,7 @@ h3 {
 .flex-horizontal {
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 .flex-sides {
