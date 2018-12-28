@@ -250,6 +250,10 @@ figure {
   width: auto;
 }
 
+#testimonials figure {
+  margin: 0 20px 0 20px;
+}
+
 .flex-horizontal {
   display: flex;
   justify-content: space-around;
