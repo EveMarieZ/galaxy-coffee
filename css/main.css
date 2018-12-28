@@ -130,6 +130,7 @@ h1 {
   font-size: 3.33em;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: .05em;
 }
 
 h2, h3, h4 {
@@ -197,7 +198,37 @@ figure {
   color: #b719ff;
 }
 
-#signup-button {
+.flex-outer {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.flex-outer > li > label, 
+.flex-outer li p {
+  flex: 1 0 100px;
+  max-width: 200px;
+}
+
+.flex-outer > li > label + * {
+  flex: 1 0 200px;
+}
+
+.flex-outer > li > button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+button {
   background: #b719ff;
   padding: 25px 170px;
   color: #fff;

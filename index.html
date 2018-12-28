@@ -44,17 +44,25 @@
 <section class="sections" id="signup">
     <h3>Do you like free stuff? Of course you do.</h3>
     <h4>Sign up for our mailing list and get a FREE scone!</h4>
-  <div class="flex-container">
-    <form action="mailto:hello@galaxycoffee.com" method="post" enctype="text/plain">
-    First Name:
-    <input type="text" name="name">
-    Last Name:
-    <input type="text" name="last-name">
-    E-mail:
-    <input type="text" name="e-mail" size="50"><br><br>
-    <input type="submit" value="Gimme that scone!" id="signup-button">
+    <form>
+      <ul class="flex-outer">
+        <li>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name">
+        </li>
+        <li>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name">
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </li>
+        <li>
+          <button type="submit">Gimme that scone!</button>
+        </li>
+      </ul>
     </form>
-  </div>
 </section>
 
 
