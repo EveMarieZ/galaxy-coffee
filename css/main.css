@@ -143,6 +143,10 @@ a:hover {
 
 /***** GRID *****/
 
+header {
+  padding-top: 30px;
+}
+
 header, #menu, #contact {
   background: #6d17e8;
 }
@@ -176,6 +180,15 @@ h3 {
   display: flex; 
   align-items: center;
   justify-content: center;
+}
+
+figure {
+  margin: 0;
+}
+
+.fig-background {
+  width: 100%;
+  background: #fff;
 }
 
 /***** SIGNUP *****/
@@ -261,7 +274,7 @@ h3 {
   line-height: 1.5em;
 }
 
-#contact h4 {
+#contact h4, p {
   color: #fff;
 }
 
