@@ -144,12 +144,11 @@ a:hover {
 /***** GRID *****/
 
 header {
-  height: 578px;
   background: #6d17e8;
 }
 
 #signup {
-  height: 622px;
+  height: 500px;
 }
 
 #menu {
@@ -192,17 +191,10 @@ h3 {
   justify-content: center;
 }
 
-.header-images {
-  width: 100%
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 /***** SIGNUP *****/
 
 #signup {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 #signup h3, h4 {
