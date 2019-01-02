@@ -290,7 +290,7 @@ button {
 
 .flex-horizontal {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 30px;
 }
 
@@ -319,6 +319,14 @@ button {
 #contact img {
   height: 50px;
   width: auto;
+}
+
+#contact-flex {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-down figure {
 }
 
 /***** FOOTER *****/
