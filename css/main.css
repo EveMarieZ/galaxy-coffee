@@ -201,7 +201,7 @@ figure {
 .flex-outer {
   list-style-type: none;
   padding: 0;
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -222,10 +222,13 @@ figure {
   flex: 1 0 200px;
 }
 
+
 .flex-outer > li > button {
-  display: flex;
+  display: inherit;
+  flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 20px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 button {
@@ -238,7 +241,7 @@ button {
 /***** MENU *****/
 
 #menu img {
-  height: 80px;
+  height: 130px;
   width: auto;
 }
 
