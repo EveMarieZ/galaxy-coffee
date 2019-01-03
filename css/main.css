@@ -265,9 +265,11 @@ button {
 .flex-vertical {
   padding-top: 30px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
+  max-width: 940px;
+  margin: auto;
 }
 
 .flex-down {
@@ -276,7 +278,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px 0px 20px;
 }
 
 /***** TESTIMONIALS *****/
@@ -303,6 +304,8 @@ button {
   justify-content: space-evenly;
   padding-top: 30px;
   width: 100%;
+  max-width: 940px;
+  margin: auto;
 }
 
 .flex-sides {
@@ -332,16 +335,26 @@ button {
   width: auto;
 }
 
-#contact-flex {
-  justify-content: flex-start;
-  align-items: flex-start;
+.flex-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  max-width: 940px;
+  padding-top: 20px;
 }
 
-.flex-down ul {
+.flex-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-map ul {
   padding-left: initial;
 }
 
-.flex-down ul li {
+.flex-map ul li {
   list-style-type: none;
   display: inline-block;
   padding-right: 20px;
