@@ -192,6 +192,15 @@ figure {
   background: #fff;
 }
 
+/***** MAIN CONTEXT *****/
+
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+
 /***** SIGNUP *****/
 
 #signup h3, h4 {
@@ -258,6 +267,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
 }
 
 .flex-down {
@@ -292,6 +302,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   padding-top: 30px;
+  width: 100%;
 }
 
 .flex-sides {
@@ -447,7 +458,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 940px) {
 
 /***** HEADER *****/
 
